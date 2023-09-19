@@ -1,0 +1,18 @@
+
+/* Gemensamma stilar för både mobil och PC */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+li {
+    background-color: #9da712;
+    
+    
+}
