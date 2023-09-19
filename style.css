@@ -38,3 +38,18 @@ li {
         margin: 0.3rem;
     }
 }
+
+/* Media query för PC */
+
+@media (min-width: 769px) {
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 30px;
+        font-size: 2rem;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+}
