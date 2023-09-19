@@ -16,3 +16,25 @@ li {
     
     
 }
+/* Media query för mobila enheter */
+@media (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 30px;
+        font-size: 1.5rem;
+    }
+    h1 {
+        color: #007bff;
+    }
+    
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0.3rem;
+    }
+}
